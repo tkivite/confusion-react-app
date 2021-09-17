@@ -9,12 +9,6 @@ import {
   ListGroupItem,
 } from "reactstrap";
 
-// class Dishdetail extends Component {
-// constructor(props) {
-//   super(props);
-//   this.state = {};
-// }
-
 function RenderComments({ comments }) {
   if (comments != null) {
     return (
